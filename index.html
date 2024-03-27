@@ -7,6 +7,37 @@
       background: url(web\ background.png) no-repeat center fixed; 
       background-size: cover;
     }
+
+    #maintxt {
+      text-align: center;
+      font-size: 175px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    div {
+      background-color: rgba(250, 235, 215, 0.288);
+      margin: 30px;
+      border-radius: 30px;
+    }
+    
+    .fade-in {
+      animation: fadeIn 5s;
+    }
+
+    @keyframes fade-in{
+      0%{ opacity: 0;}
+      100%{opacity: 1;}
+    }
+    
+    #sndtxt{
+      text-align: center;
+      font-size: 30px;
+      padding: 0px;
+      margin-top: 0px;
+      margin-bottom: 60px;
+    }
+
     ul {
       list-style-type: none;
       margin: 0;
@@ -52,14 +83,15 @@
 
 <body style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
 
-<div>
-<h1 style="text-align: center; background-color: blue;"> <span id="borandback"> This is Jack's portfolio </span> </h1>
+<div class="fade-in">
+<h1 id="maintxt"> Jack's </h1>
+<h5 id="sndtxt"> website </h5>
 </div>
 
 
-<p <span style="text-align: center; background-color: cornflowerblue;"> </span>
+<p style="text-align: center; background-color: cornflowerblue;"> <span>
  My name is Jack I am 15 years old and I enjoy playing sports such as 
-<br>basketball and volleyball. I also enjoy music, I've played the guitar for six years and now the drums for just under a year. </p>
+<br>basketball and volleyball. I also enjoy music, I've played the guitar for six years and now the drums for just under a year. </span></p>
 
 
 </body>
